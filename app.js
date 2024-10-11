@@ -12,8 +12,6 @@ var serviceRoutes = require('./routes/service_route');
 var billRoutes = require('./routes/bill_route');
 var billServiceRoutes = require('./routes/billservice_route');
 
-var indexRouter = require('./routes/index');
-
 var app = express();
 
 app.use(logger('dev'));
@@ -21,7 +19,6 @@ app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
 app.use(cookieParser());
 
-app.use('/', indexRouter);
 app.use('/users', userRoutes);
 app.use('/locations', locationRoutes);
 app.use('/promocodes', promoCodeRoutes);
