@@ -1,14 +1,11 @@
 const mongoose = require('mongoose');
 
 const serviceSchema = new mongoose.Schema({
-    locationID: { 
-        type: mongoose.Schema.Types.ObjectId, 
-        ref: 'Location', 
-        required: true 
-    },
+    name: { type: String, required: true },
+    description: { type: String, required: true },
     type: { 
         type: String, 
-        enum: ['barber', 'facial', 'massage', 'hair care'], 
+        enum: ['barber', 'facial', 'massage', 'hair care', "package"], 
         required: true 
     },
     price: { type: Number, required: true },
