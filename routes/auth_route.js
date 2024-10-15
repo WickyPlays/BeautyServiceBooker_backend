@@ -17,7 +17,7 @@ router.post("/register", async (req, res) => {
       loginMethod,
     });
     await user.save();
-    res.send("User created successfully");
+    res.status(200).send("User created successfully");
   } catch (err) {
     res.status(500).send(err.message);
   }
@@ -40,7 +40,7 @@ router.post("/login", async (req, res) => {
     const token = jwt.sign(
       { userId: user.id, username: user.name },
       process.env.JWT_SECRET,
-      { expiresIn: "1h" }
+      { expiresIn: "7d" }
     );
     res.status(200).send({ token });
   } catch (err) {

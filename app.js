@@ -2,6 +2,7 @@ var createError = require("http-errors");
 var express = require("express");
 var cookieParser = require("cookie-parser");
 var logger = require("morgan");
+var cors = require("cors");
 require('dotenv').config();
 
 require("./db");
@@ -16,6 +17,8 @@ var billServiceRoutes = require("./routes/billservice_route");
 var authMiddleware = require("./middlewares/auth_middleware");
 
 var app = express();
+
+app.use(cors());
 
 app.use(logger("dev"));
 app.use(express.json());
