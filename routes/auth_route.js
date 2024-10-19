@@ -16,7 +16,7 @@ router.post("/register", async (req, res) => {
       phone,
     });
     await user.save();
-    res.status(200).send("User created successfully");
+    res.status(201).send("User created successfully");
   } catch (err) {
     res.status(500).send(err.message);
   }
