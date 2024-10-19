@@ -1,0 +1,89 @@
+[{
+  "_id": {
+    "$oid": "671201f969441ce672d9a010"
+  },
+  "name": "Basic Haircut",
+  "description": "A standard male haircut.",
+  "type": "barber",
+  "price": 20,
+  "duration": 20,
+  "gender": "male"
+},
+{
+  "_id": {
+    "$oid": "671201f969441ce672d9a011"
+  },
+  "name": "Haircut and Shave",
+  "description": "A complete grooming package including a haircut and shave.",
+  "type": "barber",
+  "price": 35,
+  "duration": 40,
+  "gender": "both"
+},
+{
+  "_id": {
+    "$oid": "671201f969441ce672d9a012"
+  },
+  "name": "Facial Treatment",
+  "description": "A refreshing facial treatment.",
+  "type": "facial",
+  "price": 50,
+  "duration": 20,
+  "gender": "male"
+},
+{
+  "_id": {
+    "$oid": "671201f969441ce672d9a013"
+  },
+  "name": "Facial Treatment",
+  "description": "A relaxing and rejuvenating facial treatment.",
+  "type": "facial",
+  "price": 50,
+  "duration": 40,
+  "gender": "female"
+},
+{
+  "_id": {
+    "$oid": "671201f969441ce672d9a014"
+  },
+  "name": "Full Body Massage",
+  "description": "A relaxing full-body massage.",
+  "type": "massage",
+  "price": 70,
+  "duration": 40,
+  "gender": "both"
+},
+{
+  "_id": {
+    "$oid": "671201f969441ce672d9a015"
+  },
+  "name": "Hair Care Treatment",
+  "description": "Professional hair care service.",
+  "type": "hair care",
+  "price": 30,
+  "duration": 20,
+  "gender": "male"
+},
+{
+  "_id": {
+    "$oid": "671201f969441ce672d9a016"
+  },
+  "name": "Hair Care Treatment",
+  "description": "Professional hair care treatment for women.",
+  "type": "hair care",
+  "price": 30,
+  "duration": 40,
+  "gender": "female"
+},
+{
+  "_id": {
+    "$oid": "671207a84ac2138380b2ecc8"
+  },
+  "name": "Haircut",
+  "description": "A full male haircut.",
+  "type": "package",
+  "price": 40,
+  "duration": 40,
+  "gender": "male",
+  "__v": 0
+}]

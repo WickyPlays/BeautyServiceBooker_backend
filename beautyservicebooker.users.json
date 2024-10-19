@@ -1,0 +1,54 @@
+[{
+  "_id": {
+    "$oid": "670e163368425e7c5549a108"
+  },
+  "name": "BlueDB",
+  "email": "box@gmail.com",
+  "password": "$2b$10$MArvsRjy/sLnvV0orCrOy.Mt0/Wn96ejs3dyWtse1SwDghIOiV2Nm",
+  "phone": "911",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "670e18a5a779089a278dbfa6"
+  },
+  "name": "admin",
+  "email": "admin@gmail.com",
+  "password": "$2b$10$eA2V82QAHlhlWcpB/XfEK.Ar12a7ucvLxhM0DSAxYFGc72rg01ctu",
+  "role": "admin",
+  "phone": "911",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "670e18f9a779089a278dbfa8"
+  },
+  "name": "stylist",
+  "email": "stylist@gmail.com",
+  "password": "$2b$10$aGIywYLE5DYXpWImMpGCUuXny6bQmmdtvj82YkSeJ69ah6jEUCYo2",
+  "role": "stylist",
+  "phone": "911",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "670e1901a779089a278dbfaa"
+  },
+  "name": "staff",
+  "email": "staff@gmail.com",
+  "password": "$2b$10$si.acjiH5mKg8O8ZCId43ef2kHIzq18rpKdOXHRccaKvojof9vPEO",
+  "role": "staff",
+  "phone": "911",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "670e1908a779089a278dbfac"
+  },
+  "name": "manager",
+  "email": "manager@gmail.com",
+  "password": "$2b$10$V0XNBCd.gCY9VP7CPsPa0e9H1D5z7yGp5xJl6PPoQ7Q4Kf7AbLmem",
+  "role": "manager",
+  "phone": "911",
+  "__v": 0
+}]
