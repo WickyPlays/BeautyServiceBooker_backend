@@ -7,6 +7,7 @@
   "type": "barber",
   "price": 20,
   "duration": 20,
+  "image": "https://s3.ap-south-1.amazonaws.com/cdn-shebaxyz/images/categories_images/thumbs/1644916789_salonservicesformen.jpg",
   "gender": "male"
 },
 {
@@ -18,6 +19,7 @@
   "type": "barber",
   "price": 35,
   "duration": 40,
+  "image": "https://salonbizsoftware.com/wp-content/uploads/elementor/thumbs/Stylists-doing-hair-at-salon-stations-qkfzncr59ru8k2b77a2qjg8xhtyjfn1h71kd6z47l8.jpg",
   "gender": "both"
 },
 {
@@ -29,6 +31,7 @@
   "type": "facial",
   "price": 50,
   "duration": 20,
+  "image": "https://s3.ap-south-1.amazonaws.com/cdn-shebaxyz/images/categories_images/thumbs/1644916789_salonservicesformen.jpg",
   "gender": "male"
 },
 {
@@ -40,6 +43,7 @@
   "type": "facial",
   "price": 50,
   "duration": 40,
+  "image": "https://mitchellssalon.com/wp-content/uploads/2021/10/Dooley-Social-Mitchells-Salon-In-Action-Photos-4554-scaled.jpg",
   "gender": "female"
 },
 {
@@ -51,6 +55,7 @@
   "type": "massage",
   "price": 70,
   "duration": 40,
+  "image": "https://salonbizsoftware.com/wp-content/uploads/elementor/thumbs/Stylists-doing-hair-at-salon-stations-qkfzncr59ru8k2b77a2qjg8xhtyjfn1h71kd6z47l8.jpg",
   "gender": "both"
 },
 {
@@ -62,6 +67,7 @@
   "type": "hair care",
   "price": 30,
   "duration": 20,
+  "image": "https://s3.ap-south-1.amazonaws.com/cdn-shebaxyz/images/categories_images/thumbs/1644916789_salonservicesformen.jpg",
   "gender": "male"
 },
 {
@@ -73,6 +79,7 @@
   "type": "hair care",
   "price": 30,
   "duration": 40,
+  "image": "https://mitchellssalon.com/wp-content/uploads/2021/10/Dooley-Social-Mitchells-Salon-In-Action-Photos-4554-scaled.jpg",
   "gender": "female"
 },
 {
@@ -84,6 +91,7 @@
   "type": "package",
   "price": 40,
   "duration": 40,
+  "image": "https://s3.ap-south-1.amazonaws.com/cdn-shebaxyz/images/categories_images/thumbs/1644916789_salonservicesformen.jpg",
   "gender": "male",
   "__v": 0
 }]
