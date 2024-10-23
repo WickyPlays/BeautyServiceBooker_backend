@@ -10,6 +10,8 @@ const serviceSchema = new mongoose.Schema({
     },
     price: { type: Number, required: true },
     duration: { type: Number, required: true },  // Duration in seconds
+    image: {type: String, required: true},
+    
     gender: { 
         type: String, 
         enum: ['male', 'female', 'both'], 

@@ -16,9 +16,7 @@ router.get("/", async (req, res) => {
 // GET single service by ID
 router.get("/:id", async (req, res) => {
   try {
-    const service = await Service.findById(req.params.id).populate(
-      "locationID"
-    );
+    const service = await Service.findById(req.params.id);
     if (!service) return res.status(404).json({ message: "Service not found" });
     res.status(200).json(service);
   } catch (err) {
@@ -37,6 +35,7 @@ router.post(
       type: req.body.type,
       price: req.body.price,
       duration: req.body.duration,
+      image: req.body.image,
       gender: req.body.gender
     });
     try {
@@ -79,6 +78,8 @@ router.delete(
     }
   }
 );
+
+
 
 // GET services for a specific location
 // router.get('/locations/:id/services', async (req, res) => {
