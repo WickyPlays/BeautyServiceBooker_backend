@@ -15,6 +15,7 @@ router.get("/", async (req, res) => {
 
 // GET single service by ID
 router.get("/:id", async (req, res) => {
+  console.log(req.params.id);
   try {
     const service = await Service.findById(req.params.id);
     if (!service) return res.status(404).json({ message: "Service not found" });
